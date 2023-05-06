@@ -35,7 +35,7 @@ img[type=linea]{
 img[type=uno]{
     width:0.9em;
     position:absolute;
-    left:6em;
+    left:99.2em;
     cursor:pointer;
     transition: transform 0.8s;
 }
@@ -52,16 +52,17 @@ p{
 
 p[type=titulo]{
     color: black;
-     position:relative;
-    left:0.9em;
-    /*bottom:8.9em; */
+    position:relative;
+    top:2.2em;
+    left:1.2em;
     font-size:6.1rem;
 }
 
 p[type=description]{
     color: rgb(106, 97, 97);
     position:relative;
-    left:5.2em; 
+    top:20.7em;
+    left:6.6em;
     font-size:1.2rem;
 }
 
@@ -89,7 +90,8 @@ button[type=sign-up]{
 button[type=shop-now]{
     font-family: 'Montserrat', sans-serif; 
     position:relative;
-    left:5.4em;
+    top:12.2em;
+    left:7.2em;
     padding: 0.8em 1.7em;
     font-size:1.2rem;
     cursor:pointer;
@@ -124,10 +126,15 @@ button[type=shop-now]:hover{
     transform: scale(1.2)
 }
 
-.fa-magnifying-glass:hover{
+/* .fa-magnifying-glass:hover{
     transform: scale(1.1);
     text-shadow: 1px 1px 1px black;
-}
+}*/
+
+.bi-search:hover{
+    transform: scale(1.1);
+    text-shadow: 1px 1px 1px black;
+} 
 
 /* Clases */
 
@@ -141,18 +148,14 @@ button[type=shop-now]:hover{
     display:flex;
 }
 
-/* .parte2{
-    background-color: rgb(214, 189, 166);
-} */
-
 .sign-in{
     display:flex;
     position:relative;
     left:20.5em;
 }
 
-.fa-magnifying-glass{
-    font-size:1.2rem;
+ /* .fa-magnifying-glass{
+    font-size:0.2rem;
     margin: 0 2em 0 0;
     cursor: pointer;
     transition: transform 1s,
@@ -163,7 +166,22 @@ button[type=shop-now]:hover{
     font-size: 1.2rem;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+}  */
+
+.bi-search{
+    font-size:1.2rem;
+    margin: 0 2em 0 0;
+    cursor: pointer;
+    transition: transform 1s,
+                text-shadow 0.5s;
 }
+
+.bi-lock{
+    font-size: 1.3rem;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
 
 .texto-sign-in{
     margin: 0 0 0 1.5em;
