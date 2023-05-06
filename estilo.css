@@ -84,7 +84,7 @@ p[type=number]{
     font-family:'Montserrat', sans-serif; 
     font-size:0.5rem;
     margin:2.8em 0;
-    transition: transform 1s;
+    cursor:default;
 }
 
 nav{
@@ -156,11 +156,6 @@ button[type=shop-now]:hover{
     transform: scale(1.1)
 }
 
-p[type=number]:hover{
-    transform:scale(1.2);
-    cursor:default;
-}
-
 /* .fa-magnifying-glass:hover{
     transform: scale(1.1);
     text-shadow: 1px 1px 1px black;
@@ -214,8 +209,7 @@ p[type=number]:hover{
 
 .bi-lock{
     font-size: 1.2rem;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
+    cursor:pointer;
 }
 
 
