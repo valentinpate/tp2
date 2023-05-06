@@ -7,7 +7,7 @@
 
 body{
     background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 67%, rgba(214,189,166,1) 67%);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 65%, rgba(214,189,166,1) 65%);
 }
 
 img[type=logo]{
@@ -53,7 +53,7 @@ p{
 p[type=titulo]{
     color: black;
     position:relative;
-    top:2.2em;
+    top:2em;
     left:1.2em;
     font-size:6.1rem;
 }
@@ -61,8 +61,8 @@ p[type=titulo]{
 p[type=description]{
     color: rgb(106, 97, 97);
     position:relative;
-    top:20.7em;
-    left:6.6em;
+    top:20.9em;
+    left:6.4em;
     font-size:1.2rem;
 }
 
@@ -90,7 +90,7 @@ button[type=sign-up]{
 button[type=shop-now]{
     font-family: 'Montserrat', sans-serif; 
     position:relative;
-    top:12.2em;
+    top:12em;
     left:7.2em;
     padding: 0.8em 1.7em;
     font-size:1.2rem;
