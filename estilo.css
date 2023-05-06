@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Inter:wght@500&family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img[type=fondo]{
+    position:relative;
+    left:80em;
+    z-index:-1;
+}
+
+img[type=logo]{
+    position:relative;
+    right:20em;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+
+img[type=mujer]{
+    position:absolute;
+    left:61.5em;
+    top:3.3em;
+    z-index:2;
+} 
+
+img[type=linea]{
+    position:relative;
+    bottom:0.3em;
+    margin: 0 0 0 2em;
+    width:1.1em;
+    height:1.9em;
+}
+
+img[type=uno]{
+    width:0.9em;
+    position:absolute;
+    left:76em;
+    bottom:3em;
+    cursor:pointer;
+    transition: transform 0.8s;
+}
+
+a{
+    color:black;
+    text-decoration:none;
+    font-size:0.8rem;
+}
+
+p{
+    font-family: 'Gloock', serif;
+}
+
+p[type=titulo]{
+    color: black;
+    position:relative;
+    left:0.9em;
+    bottom:8.9em;
+    font-size:6.1rem;
+}
+
+p[type=description]{
+    color: rgb(106, 97, 97);
+    position:relative;
+    bottom:37em;
+    left:5.2em;
+    font-size:1.2rem;
+}
+
+nav{
+    margin: 0.3em 2em 0 16em;
+    position:relative;
+    right:23em;
+    bottom:2.2em;
+}
+
+nav a{
+    margin: 0 3.5em;
+}
+
+button[type=sign-up]{
+    font-family:'Inter', sans-serif;;
+    margin: 0 0 0 1.5em;
+    padding: 0.5em 1em;
+    border:1px solid black;
+    background-color: rgb(214, 189, 166);
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+}
+
+button[type=shop-now]{
+    font-family: 'Montserrat', sans-serif; 
+    position:relative;
+    bottom:42em;
+    left:5.4em;
+    padding: 0.8em 1.7em;
+    font-size:1.2rem;
+    cursor:pointer;
+    background-color:white;
+    border:2px solid black;
+    transition: background-color 0.4s,
+                color 0.4s,
+                transform 0.8s;
+}
+
+/* Pseudoclases */
+
+a:hover{
+    text-decoration: underline;
+}
+
+img[type=logo]:hover{
+    box-shadow: 3px 3px 1px black;
+}
+
+img[type=uno]:hover{
+    transform:scale(1.3);
+}
+
+button[type=sign-up]:hover{
+    box-shadow: 3px 3px 1px grey;
+}
+
+button[type=shop-now]:hover{
+    background-color:black;
+    color:white;
+    transform: scale(1.2)
+}
+
+.fa-magnifying-glass:hover{
+    transform: scale(1.1);
+    text-shadow: 1px 1px 1px black;
+}
+
+/* Clases */
+
+.contenedor-cabezado{
+    display:flex;
+    font-family: 'Inter', sans-serif;
+}
+
+.parte1{
+    position:relative;
+    bottom:67em;
+    z-index: 1;
+    margin: 1.7em 0 0 25em;
+    display:flex;
+}
+
+/* .parte2{
+    background-color: rgb(214, 189, 166);
+} */
+
+.sign-in{
+    display:flex;
+    position:relative;
+    left:22.5em;
+}
+
+.fa-magnifying-glass{
+    font-size:1.2rem;
+    margin: 0 2em 0 0;
+    cursor: pointer;
+    transition: transform 1s,
+                text-shadow 0.5s;
+}
+
+.fa-lock{
+    font-size: 1.2rem;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.texto-sign-in{
+    margin: 0 0 0 1.5em;
+    position:relative;
+    bottom:0.3em;
+}
+
+.bi-1-circle-fill{
+    border:1px solid black;
+}
