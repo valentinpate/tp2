@@ -5,10 +5,9 @@
     padding: 0;
 }
 
-img[type=fondo]{
-    position:relative;
-    left:80em;
-    z-index:-1;
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 67%, rgba(214,189,166,1) 67%);
 }
 
 img[type=logo]{
@@ -36,8 +35,7 @@ img[type=linea]{
 img[type=uno]{
     width:0.9em;
     position:absolute;
-    left:76em;
-    bottom:3em;
+    left:6em;
     cursor:pointer;
     transition: transform 0.8s;
 }
@@ -54,17 +52,16 @@ p{
 
 p[type=titulo]{
     color: black;
-    position:relative;
+     position:relative;
     left:0.9em;
-    bottom:8.9em;
+    /*bottom:8.9em; */
     font-size:6.1rem;
 }
 
 p[type=description]{
     color: rgb(106, 97, 97);
     position:relative;
-    bottom:37em;
-    left:5.2em;
+    left:5.2em; 
     font-size:1.2rem;
 }
 
@@ -92,7 +89,6 @@ button[type=sign-up]{
 button[type=shop-now]{
     font-family: 'Montserrat', sans-serif; 
     position:relative;
-    bottom:42em;
     left:5.4em;
     padding: 0.8em 1.7em;
     font-size:1.2rem;
@@ -141,9 +137,6 @@ button[type=shop-now]:hover{
 }
 
 .parte1{
-    position:relative;
-    bottom:67em;
-    z-index: 1;
     margin: 1.7em 0 0 25em;
     display:flex;
 }
@@ -155,7 +148,7 @@ button[type=shop-now]:hover{
 .sign-in{
     display:flex;
     position:relative;
-    left:22.5em;
+    left:20.5em;
 }
 
 .fa-magnifying-glass{
