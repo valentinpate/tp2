@@ -51,7 +51,6 @@ img[type=black-line]{
 img[type=grey-line]{
     width:0.2em;
     height:3.3em;
-    transition: filter 0.2s;
 }
 
 a{
@@ -139,10 +138,6 @@ img[type=uno]:hover{
 
 img[type=black-line]:hover{
     transform:scale(1.1);
-    filter: blur(1px)
-}
-
-img[type=grey-line]:hover{
     filter: blur(1px)
 }
 
