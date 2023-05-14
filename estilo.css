@@ -19,6 +19,7 @@ img[type=logo]{
 
 img[type=mujer]{
     position:absolute;
+    margin:0 auto;
     left:61.5em;
     top:3.3em;
     z-index:2;
@@ -234,4 +235,16 @@ button[type=shop-now]:hover{
     display:flex;
     flex-direction:column;
     align-items:flex-end;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width:480px){
+    .encabezado{
+        display:none;
+    }
+
+    .sign-in{
+        display:none;
+    }
 }
